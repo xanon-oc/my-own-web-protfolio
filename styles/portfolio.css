@@ -13,6 +13,7 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 
 .nav-title{
@@ -27,4 +28,72 @@ nav li{
 .primary-text{
     color: #FD6E0A;
 
+}
+.btn-primary{
+    border: 0;
+    padding: 18px 35px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title{
+
+    font-weight: 700;
+    font-size: 85px;
+
+}
+
+.banner-sub-title{
+
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* About section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title{
+text-align: center;
+margin-bottom: 30px;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
